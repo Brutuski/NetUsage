@@ -39,3 +39,6 @@ interval = 1
 
 label = "%output%"
 ```
+## Limitations
++ Network usage data is fetched from `/proc/net/dev`. This script will not work on MacOS in it's current form.
++ Data is displayed only in _MB_ for now. _GB_ will be added in a future update.
